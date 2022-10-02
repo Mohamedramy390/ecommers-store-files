@@ -1,0 +1,48 @@
+@import './variables';
+@import './custom-table';
+@import './mixing';
+@import './sale';
+@import './slider';
+@import './custom.scss';
+
+
+
+
+form .form-control , .custom-btn{
+    border: 1px solid #eef0ea;
+    box-shadow: none;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #555555;
+    transition: all .5s ease;
+    padding: 6px 13px ;
+}
+
+.custom-btn:hover{
+    background-color: #d4d4d4;
+    border: 1px solid #8c8c8c;
+    color: $btn-primary-darken !important;
+}
+.navbar .search-btn{
+    @include button-style($brand-danger);
+}    
+
+
+
+#footer-nav form .footer-btn:hover,
+#footer-nav form .footer-btn:focus,
+#footer-nav form .footer-btn.active{
+    background-color: $btn-primary-darken;
+    border-color: $btn-primary-darken;
+}
+
+.product-add-to-cart-btn{
+    background-color: $brand-primary;
+    padding: 8px 8px ;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 18px;
+    &:hover{
+        background-color: $btn-primary-darken;
+    }
+}

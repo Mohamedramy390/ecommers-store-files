@@ -1,0 +1,45 @@
+.custom-table{
+    width: 100%;
+    img{
+        width: 80px;
+        height: 80px;
+        border: 1px solid #ebebeb;
+        margin-left: 10px;
+    }
+    .media h5{
+        font-size: 20px;
+        margin: 12px 0;
+    }
+    .quantity{
+        width: 55px;
+        margin: auto;
+    }
+    td ,  th{
+        padding: 15px;
+        border-bottom:1px solid #ebebeb;
+        border-top:1px solid #ebebeb;
+        font-size: 120%;
+        &:first-child{
+            width: 50%;
+        }
+    }
+    th{
+        color: #c2c2c2;
+        font-weight: normal;
+    }
+    .media-td{
+        padding-left: 100px;
+    }
+    tfoot td{
+        border-bottom: none;
+        font-size: 150%;
+    }
+
+}
+
+
+
+
+
+
+

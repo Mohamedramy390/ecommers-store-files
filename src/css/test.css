@@ -1,0 +1,44 @@
+form .form-control, .custom-btn {
+  border: 1px solid #eef0ea;
+  box-shadow: none;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #555555;
+  transition: all 0.5s ease;
+  padding: 6px 13px;
+}
+
+.custom-btn:hover {
+  background-color: #d4d4d4;
+  border: 1px solid #8c8c8c;
+  color: #b86d07 !important;
+}
+
+.navbar .search-btn:hover,
+.navbar .search-btn:active,
+.navbar .search-btn:focus,
+.navbar .search-btn:active:focus .navbar .search-btn:active:hover {
+  background-color: #c2101e;
+  border-color: #c2101e;
+}
+
+#footer-nav form .footer-btn:hover,
+#footer-nav form .footer-btn:focus,
+#footer-nav form .footer-btn.active {
+  background-color: #b89a07;
+  border-color: #b89a07;
+}
+
+.product-add-to-cart-btn {
+  background-color: #f8da47;
+  padding: 8px 8px;
+  font-weight: 700;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.product-add-to-cart-btn:hover {
+  background-color: #b89a07;
+}
+
+/*# sourceMappingURL=test.css.map */
